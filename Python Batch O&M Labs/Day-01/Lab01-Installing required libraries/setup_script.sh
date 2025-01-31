@@ -42,7 +42,7 @@ pip install --upgrade pip
 
 # Install required Python libraries
 echo "Installing required libraries: pexpect, paramiko, fabric"
-pip install pexpect paramiko fabric
+pip install pexpect paramiko fabric asyncio nest_asyncio
 
 # Deactivate the virtual environment
 echo "Deactivating virtual environment..."
